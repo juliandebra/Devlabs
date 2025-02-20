@@ -122,7 +122,7 @@ El proyecto está desplegado en las siguientes URLs:
 
 **Backend**: [Deploy en Render](https://devlabs-sv.onrender.com/)
 
-**Frontend**: [Deploy en Vercel](https://devlabs-client.vercel.app/)
+**Frontend**: [Deploy en Vercel](https://devlabs-client-tlnt.vercel.app/)
 
 ---
 
