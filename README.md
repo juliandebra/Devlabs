@@ -66,7 +66,7 @@ Asegúrate de tener instaladas las siguientes versiones en tu sistema:
 
 Crea un archivo .env en la raíz del proyecto backend con las siguientes variables:
 
-    ```env
+    ```bash
     MONGO_URI=tu_cadena_de_conexión_de_mongodb
     JWT_SECRET=tu_clave_secreta_para_jwt
     PORT=3000
@@ -76,7 +76,7 @@ Crea un archivo .env en la raíz del proyecto backend con las siguientes variabl
 
 Crea un archivo .env en la raíz del proyecto frontend con la siguiente variable:
 
-    ```env
+    ```bash
     NEXT_PUBLIC_API_BASE_URL=https://devlabs-sv.onrender.com/
     ```
 
