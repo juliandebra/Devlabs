@@ -39,25 +39,27 @@ Asegúrate de tener instaladas las siguientes versiones en tu sistema:
 
 2.Instala las dependencias:
 
-```bash
+    ```bash
 
-npm install
-```
+    npm install
+    ```
 
 ### Frontend
 
 1. Clona el repositorio:
 
-```bash
-git clone https://github.com/tu-usuario/devlabs-frontend.git
-cd devlabs-frontend
-```
+   ```bash
+   git clone https://github.com/tu-usuario/devlabs-frontend.git
+   cd devlabs-frontend
+   ```
 
 2. Instala las dependencias:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
+
+---
 
 ## Configuración del Entorno
 
@@ -65,19 +67,21 @@ npm install
 
 Crea un archivo .env en la raíz del proyecto backend con las siguientes variables:
 
-```env
-MONGO_URI=tu_cadena_de_conexión_de_mongodb
-JWT_SECRET=tu_clave_secreta_para_jwt
-PORT=3000
-```
+    ```env
+    MONGO_URI=tu_cadena_de_conexión_de_mongodb
+    JWT_SECRET=tu_clave_secreta_para_jwt
+    PORT=3000
+    ```
 
 ### Frontend
 
 Crea un archivo .env en la raíz del proyecto frontend con la siguiente variable:
 
-```env
-NEXT_PUBLIC_API_BASE_URL=https://devlabs-sv.onrender.com/
-```
+    ```env
+    NEXT_PUBLIC_API_BASE_URL=https://devlabs-sv.onrender.com/
+    ```
+
+---
 
 ## Ejecución del Proyecto
 
@@ -85,31 +89,33 @@ NEXT_PUBLIC_API_BASE_URL=https://devlabs-sv.onrender.com/
 
 Ejecuta el servidor en modo desarrollo:
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 Para compilar y ejecutar en producción:
 
-```bash
-npm run build
-npm start
-```
+    ```bash
+    npm run build
+    npm start
+    ```
 
 ### Frontend
 
 Ejecuta el servidor en modo desarrollo:
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 Para compilar y ejecutar en producción:
 
-```bash
-npm run build
-npm start
-```
+    ```bash
+    npm run build
+    npm start
+    ```
+
+---
 
 ## Despliegue
 
@@ -119,23 +125,25 @@ El proyecto está desplegado en las siguientes URLs:
 
 **Frontend**: [Deploy en Vercel](https://devlabs-client.vercel.app/)
 
+---
+
 ## Testing
 
 ### Backend
 
 Para ejecutar las pruebas en el backend:
 
-```bash
-npm test
-```
+    ```bash
+    npm test
+    ```
 
 ### Frontend
 
 Para ejecutar las pruebas en el frontend:
 
-```bash
-npm test
-```
+    ```bash
+    npm test
+    ```
 
 ## Tecnologías Utilizadas
 
