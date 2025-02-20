@@ -66,19 +66,19 @@ Asegúrate de tener instaladas las siguientes versiones en tu sistema:
 
 Crea un archivo .env en la raíz del proyecto backend con las siguientes variables:
 
-    ```bash
-    MONGO_URI=tu_cadena_de_conexión_de_mongodb
-    JWT_SECRET=tu_clave_secreta_para_jwt
-    PORT=3000
-    ```
+```bash
+MONGO_URI=tu_cadena_de_conexión_de_mongodb
+JWT_SECRET=tu_clave_secreta_para_jwt
+PORT=3000
+```
 
 ### Frontend
 
 Crea un archivo .env en la raíz del proyecto frontend con la siguiente variable:
 
-    ```bash
-    NEXT_PUBLIC_API_BASE_URL=https://devlabs-sv.onrender.com/
-    ```
+```bash
+NEXT_PUBLIC_API_BASE_URL=https://devlabs-sv.onrender.com/
+```
 
 ---
 
@@ -88,31 +88,31 @@ Crea un archivo .env en la raíz del proyecto frontend con la siguiente variable
 
 Ejecuta el servidor en modo desarrollo:
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 Para compilar y ejecutar en producción:
 
-    ```bash
-    npm run build
-    npm start
-    ```
+```bash
+npm run build
+npm start
+```
 
 ### Frontend
 
 Ejecuta el servidor en modo desarrollo:
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 Para compilar y ejecutar en producción:
 
-    ```bash
-    npm run build
-    npm start
-    ```
+```bash
+npm run build
+npm start
+```
 
 ---
 
@@ -132,17 +132,17 @@ El proyecto está desplegado en las siguientes URLs:
 
 Para ejecutar las pruebas en el backend:
 
-    ```bash
-    npm test
-    ```
+```bash
+npm test
+```
 
 ### Frontend
 
 Para ejecutar las pruebas en el frontend:
 
-    ```bash
-    npm test
-    ```
+```bash
+npm test
+```
 
 ## Tecnologías Utilizadas
 
