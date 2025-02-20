@@ -37,12 +37,11 @@ Asegúrate de tener instaladas las siguientes versiones en tu sistema:
    cd devlabs-backend
    ```
 
-2.Instala las dependencias:
+2. Instala las dependencias:
 
-    ```bash
-
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ### Frontend
 
