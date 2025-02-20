@@ -1,0 +1,24 @@
+$primary-color: #94c5cc;
+$secondary-color: #b4d2e7;
+$white: #ffffff;
+$white-soft: #f8f8f8;
+$black: #000100;
+$black-soft: #a1a6b4;
+$error: #f06262;
+
+$font-size-small: 0.875rem;
+$font-size-medium: 1rem;
+$font-size-large: 1.25rem;
+$font-size-xlarge: 1.5rem;
+
+@mixin for-tablet-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}

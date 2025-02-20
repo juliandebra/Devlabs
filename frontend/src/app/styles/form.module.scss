@@ -1,0 +1,84 @@
+@use "./_variables.module.scss" as *;
+
+.formpage {
+  background: linear-gradient(
+    to bottom,
+    rgba($white-soft, 0.8),
+    rgba($secondary-color, 0.9)
+  );
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.formpage h1 {
+  color: $white-soft;
+  text-shadow: 2px 2px 4px $black;
+}
+.form h2 {
+  font-size: $font-size-medium;
+}
+.form {
+  border-radius: 10px;
+  border: 2px solid rgba($secondary-color, 0.8);
+  max-width: 80vw;
+  min-width: 40vw;
+  padding: 20px;
+  box-shadow: 2px 2px 5px $black-soft;
+}
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+}
+.label {
+  font-size: $font-size-small;
+  color: $black;
+  text-align: left;
+  margin: 10px 0;
+}
+.input {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+}
+.textarea {
+  border: none;
+  border-radius: 5px;
+  min-height: 60px;
+  padding: 5px 5px;
+}
+.error {
+  color: $error;
+  margin: 10px;
+}
+.submit {
+  cursor: pointer;
+  padding: 10px;
+  font-size: $font-size-medium;
+  border: none;
+  border-radius: 5px;
+  color: $white-soft;
+  background-color: $primary-color;
+  transition: 0.2s;
+}
+.submit:hover {
+  box-shadow: 2px 2px 5px $black-soft;
+}
+
+.close {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: $font-size-medium;
+  border: none;
+  border-radius: 5px;
+  color: $white-soft;
+  background-color: $error;
+  transition: 0.2s;
+}
+.close:hover {
+  box-shadow: 2px 2px 5px $black-soft;
+}

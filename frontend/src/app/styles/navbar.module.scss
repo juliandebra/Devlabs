@@ -1,0 +1,46 @@
+@use "./_variables.module.scss" as *;
+
+.navbar {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.navbar img {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 3px $black-soft);
+  transition: 0.2s;
+}
+.navbar img:hover {
+  filter: drop-shadow(3px 3px 5px $black-soft);
+}
+.navbar a {
+  text-decoration: none;
+  color: $white-soft;
+  text-shadow: 2px 2px 4px $black;
+  margin: 5px;
+  padding: 10px;
+  transition: 0.2s;
+}
+.navbar a:hover {
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px $black-soft;
+}
+.navbar button {
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-inter);
+  font-size: $font-size-medium;
+  background-color: transparent;
+  color: $white-soft;
+  text-shadow: 2px 2px 4px $black;
+  margin: 5px;
+  padding: 10px;
+  transition: 0.2s;
+}
+.navbar button:hover {
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px $black-soft;
+}

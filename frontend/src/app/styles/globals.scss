@@ -1,0 +1,17 @@
+@use "./_variables.module.scss" as *;
+body {
+  margin: 0;
+}
+.container {
+  background-color: $white-soft;
+  color: $black-soft;
+  font-size: $font-size-medium;
+
+  @include for-tablet-up {
+    font-size: $font-size-large;
+  }
+
+  @include for-desktop-up {
+    font-size: $font-size-xlarge;
+  }
+}
